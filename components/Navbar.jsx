@@ -15,10 +15,10 @@ const Navbar = () => {
                 <a href="#">Вакансии</a>
             </div>
             <div className="flex items-center gap-3">
-                <a href="http://" target="_blank" rel="noopener noreferrer" className="flex items-center p-2 justify-center rounded-full bg-gradient-to-b from-[#222222] to-[#5D4073] border border-[#4A2865]">
+                <a href="https://instagram.com/wemakestars?igshid=MWI4MTIyMDE=" target="_blank" rel="noopener noreferrer" className="flex items-center p-2 justify-center rounded-full bg-gradient-to-b from-[#222222] to-[#5D4073] border border-[#4A2865] duration-100 ease-linear transition-all shadow-[0_0_25px_0_rgb(143,0,255,0)]  hover:shadow-[0_0_25px_0_rgb(143,0,255)]">
                     <Image src="/inst.svg" alt="inst" width={25} height={25} />
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer" className="px-5 py-2 flex items-center justify-center rounded-full bg-gradient-to-b from-[#D5A0FF] to-[#7827B7] border border-[#502D6C] shadow-[0_0_25px_0_rgb(143,0,255)]">
+                <a href="https://instagram.com/wemakestars?igshid=MWI4MTIyMDE=" target="_blank" rel="noopener noreferrer" className="px-5 py-2 flex items-center justify-center rounded-full bg-gradient-to-b from-[#D5A0FF] to-[#7827B7] border border-[#502D6C] duration-100 ease-linear transition-all shadow-[0_0_25px_0_rgb(143,0,255,0)]  hover:shadow-[0_0_25px_0_rgb(143,0,255)]">
                     GET STARTED
                 </a>
             </div>

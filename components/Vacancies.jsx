@@ -19,10 +19,10 @@ const Vacancies = () => {
           экспертами и их вкладом в успех наших проектов.
         </p>
         <a
-          href="http://"
+          href="https://instagram.com/wemakestars?igshid=MWI4MTIyMDE="
           target="_blank"
           rel="noopener noreferrer"
-          className="w-fit bg-white px-4 py-2 text-black rounded-lg text-base"
+          className="w-fit bg-white hover:bg-[#7827B7] hover:text-white duration-100 ease-linear transition-all px-4 py-2 text-black rounded-lg text-base"
         >
           Присоединиться
         </a>

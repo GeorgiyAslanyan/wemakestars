@@ -17,10 +17,10 @@ const Hero = () => {
           обеспечения
         </p>
         <a
-          href="http://"
+          href="https://instagram.com/wemakestars?igshid=MWI4MTIyMDE="
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2 text-base flex items-center w-fit justify-center rounded-full bg-gradient-to-b from-[#D5A0FF] to-[#7827B7] border border-[#502D6C] shadow-[0_0_25px_0_rgb(143,0,255)]"
+          className="px-5 py-2 text-base flex items-center w-fit justify-center rounded-full bg-gradient-to-b from-[#D5A0FF] to-[#7827B7] border border-[#502D6C] scale-100 hover:scale-105 duration-100 ease-linear transition-all shadow-[0_0_25px_0_rgb(72,6,125)]  hover:shadow-[0_0_25px_0_rgb(143,0,255)]"
         >
           GET STARTED
         </a>
