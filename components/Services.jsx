@@ -19,8 +19,8 @@ const Services = () => {
       WeMakeStars предоставляет доступ к программному обеспечению через SaaS, консультирует по использованию программного обеспечения и занимается разработкой программного обеспечения на заказ.
       </p>
       <div className="w-full grid grid-cols-1 xl:grid-cols-3 gap-10 z-10">
-        {arr.map((el, index) => <div key={index} className="rounded-xl relative border border-[#2D2D2D] p-2 sm:p-6 flex flex-col items-center gap-5 bg-gradient-to-b from-[#2D2D2D] to-[#1F1F1F]">
-            <Image src="/services/backlight.svg" alt="backlight" width={100} height={100} className="w-full pointer-events-none h-full absolute object-cover top-0 left-0 z-0" />
+        {arr.map((el, index) => <div key={index} className="rounded-xl relative border border-[#2D2D2D] p-2 sm:p-6 flex flex-col items-center gap-5  backdrop-blur-lg bg-gradient-to-b from-[#2D2D2D60] to-[#15151960]">
+            <Image src="/services/backlight.svg" alt="backlight" width={100} height={100} className="w-full opacity-65 pointer-events-none h-full absolute object-cover top-0 left-0 z-0" />
             <div className="rounded-full p-3 bg-gradient-to-b from-[#222222] to-[#5D4073] border border-[#2D2D2D] flex items-center justify-center">
                 <Image src={el.img} alt={el.title} width={46} height={46} />
             </div>

@@ -4,7 +4,7 @@ import React from "react";
 const Vacancies = () => {
   return (
     <div id="vacancies" className="px-3 sm:px-10 lg:px-20 flex items-center justify-center">
-      <div className="w-[1000px] max-w-[1000px] rounded-xl relative border border-[#4A2865] px-5 lg:px-[200px] flex flex-col py-12 sm:py-24 items-center gap-10 bg-gradient-to-b from-[#2D2D2D] to-[#1F1F1F]">
+      <div className="w-[1000px] max-w-[1000px] rounded-xl relative border border-[#2D2D2D] px-5 lg:px-[200px] flex flex-col py-12 sm:py-24 items-center gap-10 bg-gradient-to-b from-[#2D2D2D60] to-[#15151960]">
         <Image
           src="/services/backlight.svg"
           alt="backlight"

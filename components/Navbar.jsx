@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className="text-base fixed top-0 left-0 w-full flex items-center justify-center z-50 p-2 sm:p-5">
-        <div className="px-3 sm:px-5 py-2 sm:py-3 gap-5 flex justify-between items-center w-[1250px] max-w-[1250px] rounded-full bg-gradient-to-r from-[#2D2D2D80] to-[#1F1F1F80] backdrop-blur-lg border border-[#545454]">
+        <div className="px-3 sm:px-5 py-2 sm:py-3 gap-5 flex justify-between items-center w-[1250px] max-w-[1250px] rounded-full bg-gradient-to-r from-[#15151970] to-[#15151960] backdrop-blur-lg border border-[#2D2D2D]">
             <Image src="/logo.png" alt="logo" className='hidden sm:flex' width={101} height={51} />
             <Image src="/logobig.svg" alt="logo" className='flex sm:hidden' width={41} height={41} />
             <div className="gap-5 hidden lg:flex items-center">
