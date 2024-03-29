@@ -10,10 +10,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex text-2xl text-white min-h-screen  flex-col bg-[#1F1E1C]">
+    <main className="flex text-lg sm:text-2xl text-white min-h-screen  flex-col bg-[#1F1E1C]">
       <Navbar />
       <Hero />
-      <div className="flex flex-col gap-36 pb-10">
+      <div className="flex flex-col gap-20 md:gap-36 pb-10 overflow-hidden">
         <Services />
         <About/>
         <Features />

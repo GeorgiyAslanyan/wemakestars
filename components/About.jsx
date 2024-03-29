@@ -3,9 +3,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex relative px-20 ">
-      <div className="flex flex-col gap-10 w-[60%] z-10">
-        <h2 className="text-5xl font-black">
+    <div id="about" className="flex relative px-3 sm:px-10 lg:px-20 ">
+      <div className="flex flex-col gap-10 lg:w-[60%] z-10">
+        <h2 className="text-3xl md:text-5xl font-black">
           WeMakeStars - приложение для Web3.0 сети{" "}
         </h2>
         <p className=" max-w-[1250px]">
@@ -17,13 +17,13 @@ const About = () => {
           предоставляется по подписке).
         </p>
       </div>
-      <div className="flex items-end justify-center flex-col gap-10 w-[40%] z-10">
+      <div className="hidden lg:flex items-end justify-center flex-col gap-10 w-[40%] z-10 ">
         <Image
           src="/logobig.svg"
           alt="light"
           width={600}
           height={600}
-          className="max-w-[300px] max-h-[300px] p-5 rounded-full bg-gradient-to-b backdrop-blur-xl from-[#22222250] to-[#5D407503] border border-[#4A2865] flex items-center justify-center"
+          className="max-w-[300px] max-h-[300px] p-5 rounded-full bg-gradient-to-b backdrop-blur-xl from-[#22222250] to-[#5D407503] border border-[#2D2D2D] flex items-center justify-center"
         />
       </div>
       <div className="absolute top-0 left-0 w-full h-full z-0 pointer-events-none">
@@ -32,7 +32,7 @@ const About = () => {
           alt="light"
           width={1250}
           height={600}
-          className=" absolute right-0 w-[37%] -top-[200px]"
+          className=" absolute right-0 w-full sm:w-[37%] -top-[200px]"
         />
         <Image
           src="/herostars.svg"

@@ -26,9 +26,9 @@ const arr = [
 
 const Questions = () => {
   return (
-    <div className="flex flex-col relative items-center gap-20 px-20 ">
+    <div id='questions' className="flex flex-col relative items-center gap-10 sm:gap-20 px-3 sm:px-10 lg:px-20 ">
         <Image src="/aboutlight.svg" alt="question" width={400} height={250} className="absolute top-0 left-0 rotate-180 z-0 " />
-        <Image src="/aboutlight.svg" alt="question" width={400} height={250} className="absolute top-0 right-0  z-0 " />
+        <Image src="/aboutlight.svg" alt="question" width={400} height={250} className="absolute hidden sm:flex top-0 right-0  z-0 " />
 
       <div className="w-full h-full absolute z-0 flex items-center justify-center pointer-events-none">
 
@@ -37,11 +37,11 @@ const Questions = () => {
           alt="stars"
           width={1250}
           height={600}
-          className="object-cover absolute "
+          className="object-cover absolute hidden sm:flex"
         />
       </div>
-      <h2 className="text-5xl font-black">Остались вопросы?</h2>
-      <div className="w-full grid grid-cols-2 gap-40 relative">
+      <h2 className="text-3xl md:text-5xl font-black">Остались вопросы?</h2>
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-40 relative">
         {arr.map((el, index) => (
           <div key={index} className="flex flex-col items-start gap-3 z-10">
             <p className="font-black ">{el.question}</p>

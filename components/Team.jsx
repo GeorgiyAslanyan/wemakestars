@@ -8,13 +8,13 @@ const arr = [
 
 const Team = () => {
   return (
-    <div className="flex flex-col relative items-center gap-20 px-20 ">
+    <div id='team' className="flex flex-col relative items-center gap-10 sm:gap-20 px-3 sm:px-10 lg:px-20 ">
       <div className="w-full h-full absolute z-0 flex items-center justify-center pointer-events-none">
-      <Image src="/herolight.svg" alt="light" width={1250} height={600} className="object-cover absolute" />
-      <Image src="/herostars.svg" alt="stars" width={1250} height={600} className="object-cover absolute " />
+      <Image src="/herolight.svg" alt="light" width={1250} height={600} className="object-cover scale-125 sm:scale-100 rotate-45 sm:rotate-0 absolute" />
+      <Image src="/herostars.svg" alt="stars" width={1250} height={600} className="object-cover scale-125 sm:scale-100 rotate-45 sm:rotate-0 absolute " />
       </div>
-        <h2 className="text-5xl font-black">Наша команда</h2>
-        <div className="w-full grid grid-cols-2 gap-10">
+        <h2 className="text-3xl md:text-5xl font-black">Наша команда</h2>
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
         {arr.map((el, index) => <div key={index} className="flex flex-col items-start relative gap-3 p-5 rounded-xl backdrop-blur-xl bg-gradient-to-t from-[#2D2D2D50] to-[#1F1F1F50] border border-[#2D2D2D]">
         {/* <Image src="/services/backlight.svg" alt="backlight" width={1000} height={1000} className="w-full h-full absolute object-cover top-0 left-0 z-0" /> */}
             <p className="font-black ">{el.title}</p>
