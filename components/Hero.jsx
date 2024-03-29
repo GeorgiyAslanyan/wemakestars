@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-[90vh] overflow-hidden sm:h-screen flex items-center justify-center  relative">
+    <div className="overflow-hidden h-screen flex items-center justify-center  relative">
         
       <div className="w-full scale-125 sm:scale-100 h-full absolute z-0 flex items-center justify-center pointer-events-none">
       <Image src="/herogrid.svg" alt="grid" width={1250} height={600} className="object-cover w-full h-full" />

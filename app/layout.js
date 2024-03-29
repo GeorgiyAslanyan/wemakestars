@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={montserrat.className}>{children}</body>
+      <body suppressHydrationWarning={true} className={montserrat.className + "bg-[#151519]"}>{children}</body>
     </html>
   );
 }
